@@ -10,7 +10,7 @@
     <repository>
          <id>releases</id>
          <name>release repository</name>
-         <url>ftp:///opt/nexus/content/repositories/releases</url>
+         <url>file:///opt/nexus/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
          <id>snapshots</id>
