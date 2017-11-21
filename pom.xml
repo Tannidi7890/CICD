@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.com</groupId>
   <artifactId>simplewebapp</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>2.5</version>
 
  <distributionManagement>
