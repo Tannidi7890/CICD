@@ -10,12 +10,12 @@
     <repository>
          <id>releases</id>
          <name>release repository</name>
-         <url>file://localhost/opt/nexus/content/repositories/releases</url>
+         <url>ftp:///opt/nexus/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
          <id>snapshots</id>
          <name>snapshot Repository</name>
-         <url>file://localhost/opt/nexus/content/repositories/snapshots/</url>
+         <url>file:///opt/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   <name>Maven Webapp</name>
