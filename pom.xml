@@ -10,12 +10,12 @@
     <repository>
          <id>releases</id>
          <name>release repository</name>
-         <url>http://192.168.1.79:8081/opt/nexus/content/repositories/releases</url>
+         <url>http://192.168.1.79:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
          <id>snapshots</id>
          <name>snapshot Repository</name>
-         <url>http://192.168.1.79:8081/opt/nexus/content/repositories/snapshots/</url>
+         <url>http://192.168.1.79:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   <name>Maven Webapp</name>
