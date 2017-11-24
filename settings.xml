@@ -1,4 +1,4 @@
-
+<settings>
 
 <!--
 <?xml version="1.0" encoding="UTF-8"?>
@@ -30,7 +30,7 @@ Licensed to the Apache Software Foundation (ASF)
  | values (values used when the setting is not specified) are provided.
  |
  |-->
-<settings>
+
 <!--
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
