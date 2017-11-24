@@ -110,12 +110,14 @@ Licensed to the Apache Software Foundation (ASF)
 		<id>releases</id>
 		<username>admin</username>
 		<password>admin123</password>
+		<enabled>true</enabled>
 	</server>
 	
 	<server>
 		<id>snapshots</id>
 		<username>admin</username>
 		<password>admin123</password>
+		<enabled>true</enabled>
 	</server>
 
     <!-- server
