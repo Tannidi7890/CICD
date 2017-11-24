@@ -4,7 +4,7 @@
   <groupId>org.sonatype.com</groupId>
   <artifactId>simplewebapp</artifactId>
   <packaging>war</packaging>
-  <version>${version}</version>
+  <version>1.0</version>
 
  <distributionManagement>
     <repository>
