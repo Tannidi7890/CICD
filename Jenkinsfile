@@ -5,10 +5,10 @@ pipeline {
       parallel {
         stage('SCM-Checkout') {
           steps {
-            git(url: 'https://github.com/ravirajakoineni/CICD.git', branch: 'master', credentialsId: 'ravirajakoineni', poll: true)
+            git(url: 'https://github.com/ravirajakoineni/CICD.git', branch: 'master', credentialsId: 'ravirajakoineni', poll: true, changelog: true)
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             validateDeclarativePipeline '/var/lib/jenkins/workspace/CICD/Jenkisfile'
           }
