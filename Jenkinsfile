@@ -5,11 +5,12 @@ pipeline {
       parallel {
         stage('SCM-Checkout') {
           steps {
-            git(url: 'https://github.com/ravirajakoineni/CICD.git', branch: 'master', credentialsId: 'ravirajakoineni', poll: true, changelog: true)
             ws(dir: '/var/lib/jenkins/CICD') {
-              sh 'CD /var/lib/jenkins/workspace/CICD'
+              sh '''mkdir /var/lib/jenkins/workspace/CICD
+cd /var/lib/jenkins/workspace/CICD'''
             }
             
+            git(url: 'https://github.com/ravirajakoineni/CICD.git', branch: 'master', credentialsId: 'ravirajakoineni', poll: true)
           }
         }
         stage('error') {
