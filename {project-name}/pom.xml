@@ -1,25 +1,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.sonatype.com</groupId>
-  <artifactId>simplewebapp</artifactId>
-  <packaging>war</packaging>
-  <version>1.2</version>
 
+  <groupId>org.harsha</groupId>
+  <artifactId>ciproject</artifactId>
+  <version>4.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  
+  
  <distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+        <name>snapshots</name>
+    <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
     <repository>
-         <id>releases</id>
-         <name>release repository</name>
-         <url>http://192.168.1.86:8081/nexus-2.14.5-02/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-         <id>snapshots</id>
-         <name>snapshot Repository</name>
-         <url>http://192.168.1.86:8081/nexus-2.14.5-02/content/repositories/snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
-  <name>Maven Webapp</name>
+    <id>releases</id>
+    <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/repository/maven-releases/</url>
+   </repository>
+   </distributionManagement>
+  
+  <name>ciproject</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,6 +32,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>{project-name}</finalName>
+  <finalName>ciproject</finalName>
   </build>
-</project>
+    </project>
+
