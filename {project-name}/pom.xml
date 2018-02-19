@@ -4,7 +4,7 @@
 
   <groupId>org.harsha</groupId>
   <artifactId>ciproject</artifactId>
-  <version>4.3</version>
+  <version>4.4</version>
   <packaging>war</packaging>
   
   
@@ -12,11 +12,11 @@
   <snapshotRepository>
     <id>snapshots</id>
         <name>snapshots</name>
-    <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
+    <url>http://ec2-34-238-251-216.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
     <repository>
     <id>releases</id>
-    <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/repository/maven-releases/</url>
+    <url>http://ec2-34-238-251-216.compute-1.amazonaws.com:8081/repository/maven-releases/</url>
    </repository>
    </distributionManagement>
   
